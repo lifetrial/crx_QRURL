@@ -1,0 +1,20 @@
+{
+	"name": "QRURL",
+	"version": "1.0.0",
+	"description": "URL 2 QR",
+	"background": {
+		"scripts": ["background.js"]
+	},
+	"permissions": ["tabs"],
+	"minimum_chrome_version": "6.0.0.0",
+	"browser_action": {
+		"default_icon": "img/16.png",
+		"default_title": "扫一扫，手机快速打开"
+	},
+	"icons" : {
+    "16" : "img/16.png",
+    "48" : "img/48.png",
+    "128" : "img/128.png"
+  },
+	"manifest_version": 2
+}
